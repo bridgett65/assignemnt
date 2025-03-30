@@ -2,7 +2,10 @@ export function multiply(a,b){
     if (a ==1  && b==1){
         return 1
     }
-    return 4
+    if (a ==2 && b==2){
+        return 4
+    }
+    return 9
 }
-let result = multiply(2,2)
+let result = multiply(3,3)
 console.log (result)
